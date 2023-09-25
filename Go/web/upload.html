@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mingeydacoder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        form {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/Users/chenyenlun/Desktop/Github/PC/Go/web/F5Jad20XQAAjS53.jpg" alt="Kazuha" width="150">
+        <h1>你的名字</h1>
+        <p>簡短的個人介紹</p>
+    </header>
+
+    <div class="container">
+        <h2>關於我</h2>
+        <p>在這裡寫一些有關你自己的文字，可以是你的背景、興趣、經歷等。</p>
+
+        <h2>作品集</h2>
+        <p>列出你的作品或專案，可以包括圖片、鏈接和描述。</p>
+    </div>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" />
+        <input type="submit" value="上傳" />
+    </form>
+
+    <footer>
+        &copy; 2023 你的名字
+    </footer>
+</body>
+</html>

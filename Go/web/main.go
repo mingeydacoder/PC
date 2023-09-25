@@ -11,7 +11,7 @@ import (
 func uploadFile(w http.ResponseWriter, r *http.Request) {
     if r.Method == "GET" {
         // 顯示上傳文件的表單
-        t, _ := template.ParseFiles("/Users/chenyenlun/Desktop/Github/PC/Go/web/upload.gtpl")
+        t, _ := template.ParseFiles("/Users/chenyenlun/Desktop/Github/PC/Go/web/upload.html")
         t.Execute(w, nil)
     } else if r.Method == "POST" {
         // 處理上傳的文件
