@@ -36,6 +36,7 @@ plt.plot(LAUppm,LAU[0]/1000)
 plt.plot(SYOppm,SYO[0]/1000)
 plt.plot(SPOppm,SPO[0]/1000)
 plt.legend(["Alert (ALT)","Valentia (VTO)","Taipei (CWB)","Paramaribo (PMO)","Lauder (LAU)","Syowa (SYO)","South Pole (SPO)"])
+plt.xlabel("mixing ratio (ppm)")
 
 plt.subplot(1,2,2)
 plt.plot(ALTcon,ALT[0]/1000)
@@ -46,6 +47,6 @@ plt.plot(LAUcon,LAU[0]/1000)
 plt.plot(SYOcon,SYO[0]/1000)
 plt.plot(SPOcon,SPO[0]/1000)
 plt.legend(["Alert (ALT)","Valentia (VTO)","Taipei (CWB)","Paramaribo (PMO)","Lauder (LAU)","Syowa (SYO)","South Pole (SPO)"])
-
+plt.xlabel("volume con. (molecules/cm$^3$)")
 
 #plt.plot(ALTcon,ALT[0]/1000)
