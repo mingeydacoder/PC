@@ -49,4 +49,5 @@ plt.plot(SPOcon,SPO[0]/1000)
 plt.legend(["Alert (ALT)","Valentia (VTO)","Taipei (CWB)","Paramaribo (PMO)","Lauder (LAU)","Syowa (SYO)","South Pole (SPO)"])
 plt.xlabel("volume con. (molecules/cm$^3$)")
 
-#plt.plot(ALTcon,ALT[0]/1000)
+#plt.plot(ALTcon,ALT[0]/1000)\
+
