@@ -8,6 +8,8 @@ from tqdm import tqdm
 import cartopy.feature as cfeature
 import cartopy.crs as ccrs
 from cartopy.mpl.ticker import LongitudeFormatter,LatitudeFormatter
+import pandas as pd
+
 
 
 
@@ -23,7 +25,7 @@ lat = rootgrp.variables['lat'][:]
 lon = rootgrp.variables['lon'][:]
 plev = rootgrp.variables['plev'][:]
 
-t = rootgrp.variables['ta'][0,0,:,:] # first time step (0), all lat/lon (:)
+t = rootgrp.variables['ta'][0,:,:,:] # first time step (0), all lat/lon (:)
 print(t.shape)
 
 psl = MSLP.variables['psl'][0,:,:]/100
@@ -66,7 +68,8 @@ X,Y = np.meshgrid(x,y)
 wind=plt.barbs(X,Y,u0,v0,linewidth=0.15,length=4, barbcolor="black")
 plt.clabel(p, inline=1, fmt='%1.1f', fontsize=9)
 plt.colorbar(pr,ticks=[1,3,5,10,15,20,30,40,50,60,80,90,100,120,145,175])
-plt.title("Mean Sea Level Pressure and Precipitation on 2016/01/07")
+plt.title("Mean Sea Level Pressure and Precipitation on 2016/01/07", fontsize=10)
+plt.text(163, 57.5, "[mm/day]", fontsize=10)
 plt.show()
 
 
@@ -78,6 +81,7 @@ g = 9.81
 
 z = Z.variables['geopotential'][0,:,:,:]
 q = Q.variables['hus'][0,:,:,:]
+
 zHeight = z[1]/g # Geopotential Height at 925 hPa
 thickness = z[7]/g - z[0]/g
 pw = np.zeros([q.shape[1],q.shape[2]])
@@ -86,38 +90,33 @@ for k in tqdm(range(11),colour='blue',ncols=80):
     pw += (-1/g) * (q[k] + q[k+1]) * (plev[k+1] - plev[k])
 
 colormap2 = ['#FFEE99','#FFCC65','#FF9932','#F5691C', '#FC3D3D','#D60C1E']
-cmap = matplotlib.colors.ListedColormap(colormap2)
-clevel = [40, 50, 60, 70, 80, 90]
-norm = matplotlib.colors.BoundaryNorm(clevel, 5)
+cmap2 = matplotlib.colors.ListedColormap(colormap2)
+clevel2 = [40, 50, 60, 70, 80, 90]
+norm = matplotlib.colors.BoundaryNorm(clevel2, 5)
 
 box = [90, 160, -10, 55]
 fig, ax = plt.subplots(figsize = (12, 8), subplot_kw={"projection": ccrs.PlateCarree()})
 ax.set_extent(box, crs=ccrs.PlateCarree())
 ax.coastlines(resolution='50m', alpha=0.8, color='k', linewidth=0.5)
 
-precif = ax.contourf(lon, lat, pw, cmap=cmap, norm=norm, levels=clevel, extend='max')
-precibar = plt.colorbar(precif, fraction=0.034, ticks=clevel)
+precif = ax.contourf(lon, lat, pw, cmap=cmap2, norm=norm, levels=clevel2, extend='max')
+precibar = plt.colorbar(precif, fraction=0.034, ticks=clevel2)
 
 gh = ax.contour(lon, lat, zHeight, colors='k')
 ax.clabel(gh, inline=1, fontsize=10)
 
+print(zHeight.shape)
+
 thick = ax.contour(lon, lat, thickness, colors='#941A80')
 ax.clabel(thick, inline=1, fontsize=10)
+
+
 
 u1 = u[1,::7,::7]
 v1 = v[1,::7,::7]
 
 ax.barbs(X,Y,u1,v1,linewidth=0.2,length=5, barbcolor="blue")
 
-'''
-plt.text(90, 59, f"NE ERA5 925mb", fontsize=13)
-plt.text(90, 57.3, "ERA5 Height[gpm], Wind[knot]", fontsize=13)
-plt.text(90, 55.5, "1000-500 Thick[gpm], P-wat" + r"[kg/$m^2$]", fontsize=13)
-#plt.text(155, 59, f"[ {nonZeroCount} ]", fontsize=13)
-plt.text(147.5, 57.3, "from 2016-01-01", fontsize=13)
-plt.text(147.5, 55.5, "to     2018-12-31", fontsize=13)
-plt.text(162, 56.5, r"[kg/$m^2$]", fontsize=13)
-'''
 
 ax.set_xticks(np.arange(90, 160, 10),crs=ccrs.PlateCarree())
 ax.set_yticks(np.arange(-10, 55, 10),crs=ccrs.PlateCarree())
@@ -125,10 +124,98 @@ lon_formatter = LongitudeFormatter(zero_direction_label=False)
 lat_formatter = LatitudeFormatter()
 ax.xaxis.set_major_formatter(lon_formatter)
 ax.yaxis.set_major_formatter(lat_formatter)
+plt.text(90, 59.7, "2016.01.07 ERA5 reanalysis", fontsize=13)
+plt.text(90, 57.5, "PW [kg/m$^2$](color shading), 925mb Wind [kt] (blue barbs) ", fontsize=13)
+plt.text(90, 55.5, "925mb Z [m] (black contours), 1000-500mb Depth [m] purple contours", fontsize=13)
+plt.savefig("Precipitable water and Thickness¡.png")
+
+'''
+#plot Relative Humidity and Convergence
+
+def calc_qs(T_input, P_input):
+    Lv, Rv = 2.5e6, 461.
+    es = 611 * np.exp(Lv / Rv * (1 / 273 - 1 / T_input))
+    qs_out = 0.622 * es / (P_input - 0.378 * es)
+    return qs_out
+
+R = 6378137
+R_lat = R * np.cos(np.radians(lat))
+dx = R_lat * np.radians(0.25)
+dy = R * np.radians(0.25)
+
+length = 2 * np.pi * R * np.cos(np.radians(lat))
+dx = length / (360. / (lon[-1] - lon[-2]))
+dy = 2 * np.pi * R / (360. / (lat[-1] - lat[-2]))
+
+def diff_4th(x, h):
+    y_prime = (x[:-4] - 8*x[1:-3] + 8*x[3:-1] - x[4:]) / (12 * h)
+
+    y_prime = np.insert(y_prime, 0, (-25 * x[1] + 48 * x[2] - 36 * x[3] + 16 * x[4] - 3 * x[5]) / (12 * h))
+    y_prime = np.insert(y_prime, 0, (-25 * x[0] + 48 * x[1] - 36 * x[2] + 16 * x[3] - 3 * x[4]) / (12 * h))
+
+    y_prime = np.append(y_prime, (25 * x[-2] - 48 * x[-3] + 36 * x[-4] - 16 * x[-5] + 3 * x[-6]) / (12 * h))
+    y_prime = np.append(y_prime, (25 * x[-1] - 48 * x[-2] + 36 * x[-3] - 16 * x[-4] + 3 * x[-5]) / (12 * h))
+    return y_prime
+
+du_dx = np.zeros([261, 281])
+for i in range(len(dx)):
+    du_dx[i, :] = diff_4th(u[5, i, :], dx[i])
+
+dv_dy = np.zeros([261, 281])
+for i in range(len(lon)):
+    dv_dy[:, i] = diff_4th(v[5, :, i], dy)
+
+divergence = du_dx + dv_dy
+
+divergence[divergence > -3e-5] = np.nan
+divergence[divergence <= -3e-5] = 1
+
+qs = calc_qs(t[5], 70000.)
+RH = q[5] / qs * 100
+print(RH)
+
+box = [90, 160, -10, 55]
+fig, ax = plt.subplots(figsize = (12, 8), subplot_kw={"projection": ccrs.PlateCarree()})
+ax.set_extent(box, crs=ccrs.PlateCarree())
+ax.coastlines(resolution='50m', alpha=0.8, color='k', linewidth=0.5)
+
+colormap3 = ['#96FFFF','#0797FA', '#0166FF']
+cmap3 = matplotlib.colors.ListedColormap(colormap3)
+clevel3 = [70, 80, 90]
+norm3 = matplotlib.colors.BoundaryNorm(clevel3, 2)
+
+#plot relative humidity
+rhf = ax.contourf(lon, lat, RH, cmap=cmap3, levels=clevel3, norm=norm3, extend='max')
+cb = plt.colorbar(rhf, fraction=0.034, ticks=clevel3)
+
+#plot streamline
+ax.streamplot(lon, lat, u[5], v[5], density=2, color='k', linewidth=0.5)
+
+#plot divergence
+xx, yy = np.meshgrid(lon, lat)
+ax.scatter(xx[divergence == 1], yy[divergence == 1], 0.2, color='#B2E55C')
+
+
+plt.text(90, 57.3, "700mb Wind (black streamlines)", fontsize=13)
+plt.text(90, 55.5, "700mb Divergence" + r"[$\leq -3\times 10^{-6} s^{-1}$]" + "(green hatches)", fontsize=13)
+plt.text(90, 59.1, "700mb RH[%] (color shading)", fontsize=13)
+plt.text(90, 60.9, "2016.01.07 ERA5 reanalysis", fontsize=13)
+plt.text(163, 56.5, "RH [%]", fontsize=13)
+
+ax.set_xticks(np.arange(90, 160, 10),crs=ccrs.PlateCarree())
+ax.set_yticks(np.arange(-10, 55, 10),crs=ccrs.PlateCarree())
+lon_formatter = LongitudeFormatter(zero_direction_label=False)
+lat_formatter = LatitudeFormatter()
+ax.xaxis.set_major_formatter(lon_formatter)
+ax.yaxis.set_major_formatter(lat_formatter)
+plt.savefig("Humidity and Convergence.png")
+
+#ax.set_title('Relative Humidity and Divergence on 2016/01/07',fontsize=16)
+'''
 
 
 
-ax.set_title('Precipitable Water and Thickness on 2016/01/07',fontsize=16)
+
 
 
 
