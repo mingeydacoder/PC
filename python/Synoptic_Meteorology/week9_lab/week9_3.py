@@ -48,7 +48,8 @@ print(theta)
 
 cmap = mlp.colormaps['rainbow']
 ax = WindroseAxes.from_ax()
-ax.bar(wind_direction, wind_speed, normed=True, opening=0.8, edgecolor='white', cmap=cmap, nsector = 16 )
+ax.bar(wind_direction, wind_speed, normed=True, opening=0.8, edgecolor='white', cmap=cmap, nsector = 16,bins=np.linspace(0,15,6))
 ax.set_yticks([0,3,6,9,12,15])
 ax.set_yticklabels([0,3,6,9,12,15])
-ax.set_legend(labels = [0,3,6,9,12,15])
+ax.set_legend(labels = ['0-3','3-6','6-9','9-12','12-15','>15'])
+ax.set_title('Windrose at 00Z in Jan.,2010-2019 \n 47918: Ishigaki Island',fontsize=20)

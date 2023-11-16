@@ -40,11 +40,13 @@ blh[28] = data_dict[129][1][2]
 
 time = np.linspace(1,31,31)
 
-plt.plot(time,blh)
+plt.plot(time,blh,color='purple',marker='.')
 plt.xticks(ticks=[1,5,10,15,20,25,30])
 plt.xlabel('Day')
 plt.ylabel('Height [m]')
-plt.title('BLH 2016 Jan time series')
+axes = plt.gca()
+axes.yaxis.grid()
+plt.title('2016 Jan BLH time series')
 
 print(time)
 

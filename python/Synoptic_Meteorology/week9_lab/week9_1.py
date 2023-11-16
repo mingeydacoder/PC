@@ -42,7 +42,7 @@ u,v = mpcalc.wind_components(ws,wd)
 
 prof = mpcalc.parcel_profile(p,t[0], td[0]).to('degC')
 
-'''
+
 fig = plt.figure(figsize=(10,10))
 skew = SkewT(fig,rotation=45)              
 skew.plot(p,t,color='b')         
@@ -64,9 +64,12 @@ print('CAPE & CIN & PW:',cape, cin, pw)
 props = dict(boxstyle='round', alpha=0.5)
 
 skew.ax.text(0.7, 0.95, 'PW: 23.9 mm\nCAPE: 807.27 m\u00b2/s\u00b2\nCIN: -42.17m \u00b2/s\u00b2\nBLH: 180.0 m', transform=skew.ax.transAxes,fontsize=14, verticalalignment='top')
+skew.ax.text(0.8, 1.035, '2016010700', transform=skew.ax.transAxes,fontsize=17, verticalalignment='top')
+skew.ax.text(0.005, 1.035, '47918 Ishgaki Island', transform=skew.ax.transAxes,fontsize=17, verticalalignment='top')
+
+
 
 '''
-
 theta = data_dict[107][8][0:35]
 thetae = data_dict[107][9][0:35]
 
@@ -82,10 +85,11 @@ plt.grid()
 plt.plot(theta,pp,color="blue")
 plt.plot(thetae,pp,color="k")
 plt.ylim([1020,100])
-plt.ylabel(" ")
+plt.ylabel("Pressure [hPa]")
+plt.xlabel("[K]")
 plt.axhline(y = 1000,color = 'r', linestyle = 'dashed') 
 plt.legend(["$\\theta$","$\\theta_e$","BLH"])
-
+'''
 
 
 

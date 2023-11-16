@@ -6,97 +6,75 @@ from time import sleep
 from matplotlib.colors import ListedColormap, LinearSegmentedColormap
 import matplotlib.colors
 from tqdm import tqdm
-import cartopy.feature as cfeature
-import cartopy.crs as ccrs
+from metpy.plots import SkewT
+from metpy.units import units
+import metpy.calc as mpcalc
 from mpl_toolkits.axes_grid1 import make_axes_locatable, axes_size
+import matplotlib.gridspec as gridspec
 
-topo = nc.Dataset('TOPO.nc')
+winds = nc.Dataset('/Users/chenyenlun/Desktop/Github/PC/python/Synoptic_Meteorology/week10_lab/taiwanvvmL_20160107_SHL.L.Dynamic-000000.nc')
+print(winds)
+u = winds.variables['u'][0,:,0,0]
+u = np.insert(u,0,0)
+print(u)
+v = winds.variables['v'][0,:,0,0]
+v = np.insert(v,0,0)
 
-zz = np.loadtxt('fort.98', skiprows=188, usecols=(1,))
-
-filelist = []
-num = []
-
-for i in range(0,185,1):
-    num.append(f"{i:03}")
-
-
-
-for i in range(185):
-    name = '/Users/chenyenlun/Desktop/Github/PC/python/Synoptic_Meteorology/week10_lab/precipitation/taiwanvvmL_20160107_SHL.C.Surface-000'+num[i]+'.nc'
-    filelist.append(name)
-
-print(filelist)
-
-preci_dict = {}
-
-i = 0
-for file_name in filelist:
-    precipitation = nc.Dataset(file_name)
-    preci_dict[i] = precipitation.variables['sprec'][0,62:1000,180:835]*300
-    i = i+1
+data = np.loadtxt('fort1.98', skiprows=66, unpack='True')
+p = data[3]/100*units.hPa
 
 
-lat = topo.variables['lat'][62:1000]
-lon = topo.variables['lon'][180:835]
+t = mpcalc.temperature_from_potential_temperature(p, data[2]*units.kelvin)
+tc = t.to('degC')
+ws = mpcalc.saturation_mixing_ratio(p, tc).to('g/kg')
+RH = ((data[5]*1000)/ws)*100
+td = t.magnitude-((100-RH.magnitude)/5)
+td = td-273.15
+thetae = mpcalc.equivalent_potential_temperature(p,tc,td*units.degC)
 
-to = topo.variables['TOPO'][62:1000,180:835]
-index = to.astype(int)
+prof = mpcalc.parcel_profile(p,tc[0], td[0]*units.degC).to('degC')
 
+fig = plt.figure(figsize=(10,10))
+gs = gridspec.GridSpec(1, 2, width_ratios=[2,0.7], wspace=0.4)
 
-for i in tqdm(range(938), colour="green"):
-    for j in range(655):
-        to[i,j] = zz[index[i,j]]
+skew = SkewT(fig,rotation=45,subplot=gs[0,0])
+skew.plot(p,t,color='b')         
+skew.plot(p,td,color='r')   
+skew.plot_dry_adiabats(t0=np.arange(-20,151,10)*units.celsius, linewidths=0.8)    
+skew.plot_moist_adiabats(t0=np.arange(-20,46,5)*units.celsius, linewidths=0.8) 
+skew.plot(p,prof,'k')
+skew.shade_cape(p,t,prof)
+skew.shade_cin(p,t,prof)
+skew.plot_barbs(p,u*1.944,v*1.944,xloc=1.15)
+skew.ax.set_xlim([-30,30])
 
+skew.ax.text(0.6, 0.95, 'PW: 27.4 mm\nCAPE: 15.24 m\u00b2/s\u00b2\nCIN: -27.36m \u00b2/s\u00b2\nBLH: 350.0 m', transform=skew.ax.transAxes,fontsize=14, verticalalignment='top')
+skew.ax.text(0.7, 1.035, 'initial profile', transform=skew.ax.transAxes,fontsize=15, verticalalignment='top')
+skew.ax.text(0.005, 1.035, '47918 Ishgaki Island', transform=skew.ax.transAxes,fontsize=15, verticalalignment='top')
 
-# create a figure using subplots
-fig, ax = plt.subplots(1,1,figsize=[10,10],dpi=300)
-# set aspect ratio
-ax.set_aspect(1)
-# draw
-ele = ax.contourf(lon, lat, to, linewidths=0.5, levels=np.linspace(0,3800,39), colors=
-['#ffffff', '#f2f2f2', '#e9e9e9', '#e5e5e5',
-'#dcdcdc', '#d8d8d8', '#cfcfcf', '#cbcbcb',
-'#c2c2c2', '#bebebe',  '#b6b6b6', '#b1b1b1',
-'#adadad', '#a0a0a0', '#9c9c9c',
-'#979797', '#8a8a8a', '#868686',
-'#7d7d7d', '#707070', '#6c6c6c',
-'#686868', '#5b5b5b', '#565656',
-'#525252', '#454545', '#414141',
-'#3d3d3d', '#383838',  '#303030', '#2b2b2b',
-'#272727', '#232323',  '#1a1a1a', '#161616',
-'#111111', '#0d0d0d',  '#040404', '#000000']
-)
-ax.contour(lon, lat, to, levels=0)
+cape, cin = mpcalc.cape_cin(p, tc, td*units.degC , prof)
+pw = mpcalc.precipitable_water(p,td*units.degC)
 
-a = ax.contourf(lon,lat, preci_dict[0], levels=[1,2,6,10,15,20,30,40,50,70,90,110,130,150,200,300], colors=['#a0fffa','#00cdff','#0096ff', '#0069ff','#329600','#32ff00',
-'#ffff00','#ffc800','#ff9600',
-'#ff0000','#c80000','#a00000',
-'#96009b','#c800d2','#ff00f5',
-'#ff64ff', '#ffc8ff'], extend='max')
+print('CAPE & CIN & PW:',cape, cin, pw)
 
-for j in tqdm(range(1,185,1)):
-    ax.contourf(lon,lat, preci_dict[j], levels=[1,2,6,10,15,20,30,40,50,70,90,110,130,150,200,300], colors=['#a0fffa','#00cdff','#0096ff',
-'#0069ff','#329600','#32ff00',
-'#ffff00','#ffc800','#ff9600',
-'#ff0000','#c80000','#a00000',
-'#96009b','#c800d2','#ff00f5',
-'#ff64ff', '#ffc8ff'])
+#plot theta thetae
+ax = plt.subplot(gs[0,1])
+ax.plot(data[2],p,color="blue")
+ax.plot(thetae,p, color='k')
+ax.set_box_aspect(3.95)
+ax.set_ylim(1050, 100)
+ax.set_yscale('log')
+ax.set_ylabel(' ')
+ax.set_yticks([1000,900,800,700,600,500,400,300,200,100])
+plt.yticks([]) 
+ax.set_xlabel('[K]')
+ax.grid()
+plt.axhline(y = 980,color = 'r', linestyle = 'dashed') 
+plt.legend(["$\\theta$","$\\theta_e$","BLH"],loc='upper left')
 
-ax.set_title("", fontsize=16)
-ax.set_xlabel('Lontitude', fontsize=14)
-ax.set_ylabel('Latitude', fontsize=14)
-
-divider = make_axes_locatable(ax) 
-colorbar_axes = divider.append_axes("right", size="3%", pad=0.1) 
-
-eletic = [1,2,6,10,15,20,30,40,50,70,90,110,130,150,200,300]
-cb = plt.colorbar(a, cax=colorbar_axes, ticks=eletic)
-cb.set_label(label='Accumulated Precipitation [mm]',fontsize=14)
-
-
-
-
-
-
+'''
+左右圖皆為2016.01.07石垣島在00Z時的探空圖，但左圖為理想化之模擬資料。此探空圖之T及Td由fort.98中的theta計算而得。可以發現於地表及較高層時，模擬及實際觀測的結果差距
+較小，中間部分兩者皆可以看出逆溫現象，唯實際觀測結果之露點溫度在700hPa處下降較多，theta及thetae也有相似的趨勢。風向方面模擬結果與觀測相去不遠，唯實際測量到的風速較大
+。
+'''
 

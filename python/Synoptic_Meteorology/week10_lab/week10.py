@@ -50,14 +50,14 @@ ele = ax.contourf(lon, lat, to, linewidths=0.5, levels=np.linspace(0,3800,39), c
 '#272727', '#232323',  '#1a1a1a', '#161616',
 '#111111', '#0d0d0d',  '#040404', '#000000']
 )
-ax.contour(lon, lat, to, levels=0)
+ax.contour(lon, lat, to, levels=0, linewidths=1)
 ax.contourf(lon,lat, preci, levels=[1,3,5,10,15,20,30,40,50,60,80,90,100,120,145,175], colors=['#a0fffa','#00cdff','#0096ff',
 '#0069ff','#329600','#32ff00',
 '#ffff00','#ffc800','#ff9600',
 '#ff0000','#c80000','#a00000',
 '#96009b','#c800d2','#ff00f5',
 '#ff64ff', '#ffc8ff'])
-ax.grid()
+#ax.grid()
 ax.set_title("Topography in TaiwanVVM", fontsize=16)
 ax.set_xlabel('Lontitude', fontsize=14)
 ax.set_ylabel('Latitude', fontsize=14)
@@ -69,7 +69,7 @@ eletic = np.linspace(0,3800,20)
 cb = plt.colorbar(ele, cax=colorbar_axes, ticks=eletic)
 cb.set_label(label='Elevation [m]',fontsize=14)
 
-
+#圖為台灣地區不包含離島的地形圖，以海拔100公尺為間距的灰階shading來描繪台灣本島的地形高度起伏。海岸線為topo在第1層時的黑色contour
 
 
 
