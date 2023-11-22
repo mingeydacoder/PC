@@ -12,5 +12,6 @@ YOUR ID: B10209040
 
 ## question 4 answer
 17499677547561660273017699567908067415377678347145626859540034597523441084050
+因e === f, 執行後觀察e之值即為f
 ## question 5 answer
-FILL YOUR ANSWER HERE
+[hash(b), hash(hash(c)+hash(d))];
