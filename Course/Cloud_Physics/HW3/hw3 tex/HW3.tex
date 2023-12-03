@@ -1,0 +1,75 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{CJKutf8}
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage{array}
+\usepackage[section]{placeins}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[export]{adjustbox}
+
+\author{B10209040 陳彥倫}
+
+\begin{document}
+\thispagestyle{empty}
+\hfill {\scshape \large Cloud Physics, Fall 2023 } \hfill {\scshape P1}
+\smallskip
+\hrule
+\begin{CJK*}{UTF8}{bsmi}
+\bigskip
+\bigskip
+\bigskip
+
+\centerline{\huge \textbf {HW3}}
+\bigskip
+\centerline{\textbf {B10209040 陳彥倫}}
+
+\section*{1.}
+
+\begin{center}
+    \begin{adjustbox}{width=150mm,center}
+        \begin{tabular}{||c|c | c | c | c ||} 
+            \hline
+            Case & A & B & C & D \\ [1ex] 
+            \hline\hline
+            Time[sec] & 34 & 41 & 15 & 18 \\ [1ex] 
+            \hline
+            Radius[mm] & 1.08656 & 0.89265 & 2.48207 & 2.09009 \\ [1ex] 
+            \hline
+                    & +0.00156 & +0.00215 & +0.00027 & +0.00039 \\ [1ex] 
+            \hline
+        \end{tabular}
+    \end{adjustbox}
+\end{center}
+
+\begin{spacing}{2}
+    \begin{large}
+        \: \\
+        \textbf{Approach:} \\
+        為求水滴從雲底墜落至地表所花時間，利用終端速度與顆粒半徑大小等關係式\\
+        $\frac{dZ}{dt} = -u(R) + W$計算。然而在只有在雲中水滴會受到上升氣流之影響，因此將此處$W = 0$代入。
+        半徑的遞迴計算以Mason equation求得。\\
+        \textbf{Discussion:} \\
+        由結果可以看出初始半徑較小的粒子到達地面所花費的時間較長，成長之半徑大小的比例亦較大。落至地面之最終半徑
+        大小與預期不符，可能與單位的設定與公式計算有關。
+
+        
+        
+
+        
+    \end{large}
+\end{spacing}
+
+\end{CJK*}
+\end{document}
