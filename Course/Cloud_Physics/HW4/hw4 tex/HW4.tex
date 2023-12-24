@@ -79,47 +79,49 @@
 
         若$i = -3$時，將上述式子積分可得解析解:
             \begin{displaymath}
-                Z = -10^4(D^3 + 3D^2 + 6D + 6)e^{-D}\bigg|^{\infty}_{0} = \mathbf{6 \times 10^4}
+                Z = -10^4(D^3 + 3D^2 + 6D + 6)e^{-D}\bigg|^{\infty}_{0} = \mathbf{6 \times 10^4}\; mm^6/m^3
             \end{displaymath}
 
+        \end{large}
         \newpage
 
+\thispagestyle{empty}
+\hfill {\scshape \large Cloud Physics, Fall 2023 } \hfill {\scshape P2}
+\smallskip
+\hrule
+\bigskip
+\bigskip
+\bigskip
+    
+    \begin{large}
         若$i = 0$:
         \begin{displaymath}
-            Z = -10^4(D^6 + 6D^5 + 30D^4 + 120D^3 + 360D^2 + 720D +720)e^{-D}\bigg|^{\infty}_{0} = \mathbf{7.2 \times 10^6}
+            Z = -10^4(D^6 + 6D^5 + 30D^4 + 120D^3 + 360D^2 + 720D +720)e^{-D}\bigg|^{\infty}_{0} = \mathbf{7.2 \times 10^6}\; mm^6/m^3
         \end{displaymath}
 
         若$i = 3$:
         \begin{displaymath}
-            Z = -10^4(D^9 + 9D^8 + 72D^7 + 504D^6 + \dots + 362880D + 362880)e^{-D}\bigg|^{\infty}_{0} = \mathbf{3.6288 \times 10^9}
+            Z = -10^4(D^9 + 9D^8 + 72D^7 + 504D^6 + \dots + 362880D + 362880)e^{-D}\bigg|^{\infty}_{0} = \mathbf{3.6288 \times 10^9}\; mm^6/m^3
         \end{displaymath}
 
     \end{large}
 
+\bigskip
+
 \subsection*{(3)}
-    \begin{large}
-        
-    
-    \end{large}
+    \begin{spacing}{3}
+        \begin{large}
+            \textbf{Discussion:} \\
+                根據\;Modified gamma distribution fuction 及 \;standard gamma 的設定，並將\;y 軸調整成對數座標、
+                x 軸設定為\;0$\sim$30\;mm，依序繪出\;i = -3, 0, 3 時的粒徑分佈。觀察三張圖可以看出粒徑分佈的主要變化是發生在
+                \;D$<$10 處，i = -3 時為開口向上的曲線，但趨近於斜直線；i = 0 時則為斜直線。而\;i = 3 時則轉變為開口向下的曲
+                線，且在粒徑約等於\;4 mm 時有數量分佈的最大值。\\
+                另根據雷達回波因子之定義，積分計算各情況之值。發現隨著\;i 值的增加，Z 值也呈指數增加。
+        \end{large}
+    \end{spacing}
 
 
-\begin{spacing}{2}
-    \begin{large}
-        \: \\
-        \textbf{Approach:} \\
-        為求水滴從雲底墜落至地表所花時間，利用終端速度與顆粒半徑大小等關係式\\
-        $\frac{dZ}{dt} = -u(R) + W$計算。然而在只有在雲中水滴會受到上升氣流之影響，因此將此處$W = 0$代入。
-        半徑的遞迴計算以Mason equation求得。\\
-        \textbf{Discussion:} \\
-        由結果可以看出初始半徑較小的粒子到達地面所花費的時間較長，成長之半徑大小的比例亦較大。落至地面之最終半徑
-        大小較預期的為小，可能與單位的設定與公式計算有關。
 
-        
-        
-
-        
-    \end{large}
-\end{spacing}
 
 \end{CJK*}
 \end{document}
