@@ -127,7 +127,6 @@ ax.yaxis.set_major_formatter(lat_formatter)
 plt.text(90, 59.7, "2016.01.07 ERA5 reanalysis", fontsize=13)
 plt.text(90, 57.5, "PW [kg/m$^2$](color shading), 925mb Wind [kt] (blue barbs) ", fontsize=13)
 plt.text(90, 55.5, "925mb Z [m] (black contours), 1000-500mb Depth [m] purple contours", fontsize=13)
-plt.savefig("Precipitable water and Thickness¡.png")
 
 '''
 #plot Relative Humidity and Convergence
