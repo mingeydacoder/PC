@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import scipy.integrate as quad
 
+#1.
+
 #determined values
 
 N0 = 1e4
@@ -39,8 +41,18 @@ plt.yscale('log')
 plt.grid(axis='y')
 plt.title('i = 3')
 
+#2.
 
-#compute radar reflectivity factor Z
+#constant
+
+N0_2 = 1e6
+zeta = 2 * 1 * 0.01 * np.pi
+dt = 5
+
+nD_0 = N0 * D^3 * np.exp(-lamb * D)
+dQ_dt = np.empty(120)
+
+
 
 
 

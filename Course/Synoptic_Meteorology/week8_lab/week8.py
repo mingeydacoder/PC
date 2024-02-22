@@ -24,8 +24,7 @@ print(precipitation)
 lat = rootgrp.variables['lat'][:]
 lon = rootgrp.variables['lon'][:]
 plev = rootgrp.variables['plev'][:]
-
-t = rootgrp.variables['ta'][0,:,:,:] # first time step (0), all lat/lon (:)
+# first time step (0), all lat/lon (:)
 print(t.shape)
 
 psl = MSLP.variables['psl'][0,:,:]/100
@@ -55,11 +54,11 @@ y = np.linspace(-10,55,261)
 y = y[::7]
 
 for i in tqdm(range (261),colour='green',ncols=80):
-   sleep(0.001)
-   for j in range (281):
-      if psl[i,j]<=1000:
-        u[0,i,j]=np.nan
-        v[0,i,j]=np.nan
+    sleep(0.001)
+    for j in range (281):
+        if psl[i,j]<=1000:
+            u[0,i,j]=np.nan
+            v[0,i,j]=np.nan
 
 u0 = u[0,::7,::7]
 v0 = v[0,::7,::7]

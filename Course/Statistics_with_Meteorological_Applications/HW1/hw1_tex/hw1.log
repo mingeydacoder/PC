@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.16)  25 DEC 2023 10:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.16)  22 FEB 2024 20:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/chenyenlun/Desktop/Github/PC/Course/Cloud_Physics/HW4/hw4 tex/HW4.tex"
-(/Users/chenyenlun/Desktop/Github/PC/Course/Cloud_Physics/HW4/hw4 tex/HW4.tex
+**/Users/chenyenlun/Desktop/Github/PC/Course/Statistics_with_Meteorological_Applications/HW1/hw1_tex/hw1.tex
+(/Users/chenyenlun/Desktop/Github/PC/Course/Statistics_with_Meteorological_Applications/HW1/hw1_tex/hw1.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -239,15 +239,6 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (/usr/local/texlive/2022/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip56
 \subfig@bottom=\skip57
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen161
-\ar@mcellbox=\box55
-\extrarowheight=\dimen162
-\NC@list=\toks27
-\extratabsurround=\skip58
-\backup@length=\skip59
-\ar@cellbox=\box56
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -277,7 +268,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen163
+\@linkdim=\dimen161
 \Hy@linkcounter=\count281
 \Hy@pagecounter=\count282
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
@@ -309,15 +300,15 @@ Package hyperref Info: Bookmarks ON on input line 4390.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen164
+\XeTeXLinkMargin=\dimen162
  (/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count285
-\Field@Width=\dimen165
-\Fld@charsize=\dimen166
+\Field@Width=\dimen163
+\Fld@charsize=\dimen164
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -351,14 +342,14 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip60
+\Hy@SectionHShift=\skip58
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
  (/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
  (/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks28
-\XKV@tempa@toks=\toks29
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
 )
 \XKV@depth=\count291
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -368,122 +359,122 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
  (/usr/local/texlive/2022/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box57
+\collectedbox=\box55
 )
-\tc@llx=\dimen167
-\tc@lly=\dimen168
-\tc@urx=\dimen169
-\tc@ury=\dimen170
+\tc@llx=\dimen165
+\tc@lly=\dimen166
+\tc@urx=\dimen167
+\tc@ury=\dimen168
 Package trimclip Info: Using driver 'tc-pdftex.def'.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen171
-\adjbox@Height=\dimen172
-\adjbox@Depth=\dimen173
-\adjbox@Totalheight=\dimen174
-\adjbox@pwidth=\dimen175
-\adjbox@pheight=\dimen176
-\adjbox@pdepth=\dimen177
-\adjbox@ptotalheight=\dimen178
+\adjbox@Width=\dimen169
+\adjbox@Height=\dimen170
+\adjbox@Depth=\dimen171
+\adjbox@Totalheight=\dimen172
+\adjbox@pwidth=\dimen173
+\adjbox@pheight=\dimen174
+\adjbox@pdepth=\dimen175
+\adjbox@ptotalheight=\dimen176
  (/usr/local/texlive/2022/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count292
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box58
+\@vwid@box=\box56
 \sift@deathcycles=\count293
-\@vwid@loff=\dimen179
-\@vwid@roff=\dimen180
+\@vwid@loff=\dimen177
+\@vwid@roff=\dimen178
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count294
-\l__pdf_internal_box=\box59
-) (./HW4.aux)
-\openout1 = `HW4.aux'.
+\l__pdf_internal_box=\box57
+) (./hw1.aux)
+\openout1 = `hw1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -522,16 +513,16 @@ LaTeX Font Info:    ... okay on input line 24.
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count295
-\scratchdimen=\dimen181
-\scratchbox=\box60
+\scratchdimen=\dimen179
+\scratchbox=\box58
 \nofMPsegments=\count296
 \nofMParguments=\count297
-\everyMPshowfont=\toks30
+\everyMPshowfont=\toks29
 \MPscratchCnt=\count298
-\MPscratchDim=\dimen182
+\MPscratchDim=\dimen180
 \MPnumerator=\count299
 \makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks31
+\everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -544,7 +535,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 )
-Package hyperref Info: Link coloring ON on input line 24.
+Package hyperref Info: Link coloring ON on input line 23.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -554,12 +545,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count301
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
- (./HW4.out) (./HW4.out)
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
+ (./hw1.out) (./hw1.out)
 \@outlinefile=\write3
-\openout3 = `HW4.out'.
+\openout3 = `hw1.out'.
 
  (/usr/local/texlive/2022/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 File: UTF8.bdg 2021/10/16 4.8.5
@@ -568,56 +559,46 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-LaTeX Font Info:    Trying to load font information for C70+bsmi on input line 36.
+LaTeX Font Info:    Trying to load font information for C70+bsmi on input line 35.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/cjk/texinput/UTF8/c70bsmi.fd
 File: c70bsmi.fd 2021/10/16 4.8.5
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/cjk/texinput/UTF8/c70bsmi.fdx
 File: c70bsmi.fdx 2021/10/16 4.8.5
 )
-<output.png, id=7, 408.3255pt x 314.3745pt>
-File: output.png Graphic file (type png)
-<use output.png>
-Package pdftex.def Info: output.png  used on input line 51.
-(pdftex.def)             Requested size: 163.3273pt x 125.74756pt.
-<output2.png, id=9, 403.9893pt x 314.3745pt>
-File: output2.png Graphic file (type png)
-<use output2.png>
-Package pdftex.def Info: output2.png  used on input line 58.
-(pdftex.def)             Requested size: 161.59285pt x 125.74756pt.
+<1.png, id=7, 419.166pt x 328.8285pt>
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 48.
+(pdftex.def)             Requested size: 170.71652pt x 133.92242pt.
+<2.png, id=9, 410.4936pt x 328.8285pt>
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 53.
+(pdftex.def)             Requested size: 170.71652pt x 136.75229pt.
+<3.png, id=10, 412.6617pt x 328.8285pt>
+File: 3.png Graphic file (type png)
+<use 3.png>
+Package pdftex.def Info: 3.png  used on input line 58.
+(pdftex.def)             Requested size: 170.71652pt x 136.03479pt.
+ [1
 
-Overfull \hbox (6.66664pt too wide) in paragraph at lines 51--59
- [][][][] 
- []
-
-<output3.png, id=10, 403.9893pt x 314.3745pt>
-File: output3.png Graphic file (type png)
-<use output3.png>
-Package pdftex.def Info: output3.png  used on input line 66.
-(pdftex.def)             Requested size: 161.59285pt x 125.74756pt.
-[1
-
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./output.png> <./output2.png> <./output3.png>]
-Overfull \hbox (28.78947pt too wide) detected at line 105
-\OML/cmm/m/it/12 Z \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 10[](\OML/cmm/m/it/12 D[] \OT1/cmr/m/n/12 + 9\OML/cmm/m/it/12 D[] \OT1/cmr/m/n/12 + 72\OML/cmm/m/it/12 D[] \OT1/cmr/m/n/12 + 504\OML/cmm/m/it/12 D[] \OT1/cmr/m/n/12 + [] + 362880\OML/cmm/m/it/12 D \OT1/cmr/m/n/12 + 362880)\OML/cmm/m/it/12 e[][][] \OT1/cmr/m/n/12 = [] \OML/cmm/m/it/12 mm[]=m[]
- []
-
-[2] (./HW4.aux)
-Package rerunfilecheck Info: File `HW4.out' has not changed.
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./1.png> <./2.png> <./3.png>] [2] (./hw1.aux)
+Package rerunfilecheck Info: File `hw1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13752 strings out of 478268
- 216103 string characters out of 5846347
- 522111 words of memory out of 5000000
- 31599 multiletter control sequences out of 15000+600000
- 491303 words of font info for 105 fonts, out of 8000000 for 9000
+ 13803 strings out of 478268
+ 216641 string characters out of 5846347
+ 521143 words of memory out of 5000000
+ 31649 multiletter control sequences out of 15000+600000
+ 490251 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,292b,1050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu30.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu4e.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu4f.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu50.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu51.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu52.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu53.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu54.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu56.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu57.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu58.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu59.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu5b.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu5c.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu5e.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu5f.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu60.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu62.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu63.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu64.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu65.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu66.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu67.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu68.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu6a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu6c.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu70.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu73.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu75.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu76.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu77.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7b.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7c.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7d.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7e.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7f.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu80.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu82.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu84.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu86.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu89.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8b.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8d.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8e.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8f.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu90.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu91.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu95.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu96.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiuff.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on HW4.pdf (2 pages, 372162 bytes).
+ 60i,8n,63p,320b,964s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu30.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu4e.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu4f.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu50.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu51.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu52.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu53.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu54.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu56.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu57.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu59.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu5b.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu5c.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu5d.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu5e.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu5f.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu60.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu61.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu62.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu63.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu64.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu65.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu66.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu67.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu68.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu69.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu6b.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu6c.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu6e.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu70.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu71.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu72.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu73.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu74.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu75.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu76.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu77.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7b.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7d.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7e.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7f.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu80.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu81.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu82.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu85.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu88.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu89.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8b.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8e.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8f.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu90.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu91.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu95.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu96.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu97.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu98.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu9a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu9e.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiuff.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on hw1.pdf (2 pages, 377987 bytes).
 PDF statistics:
- 406 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 13 named destinations out of 1000 (max. 500000)
- 224 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 425 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 9 named destinations out of 1000 (max. 500000)
+ 260 words of extra memory for PDF output out of 10000 (max. 10000000)
 
