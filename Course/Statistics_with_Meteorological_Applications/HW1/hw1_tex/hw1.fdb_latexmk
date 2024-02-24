@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1708606084 "/Users/chenyenlun/Desktop/Github/PC/Course/Statistics_with_Meteorological_Applications/HW1/hw1_tex/hw1.tex" "hw1.pdf" "hw1" 1708606084
-  "/Users/chenyenlun/Desktop/Github/PC/Course/Statistics_with_Meteorological_Applications/HW1/hw1_tex/hw1.tex" 1708606083 2935 69de1dff01d312fa62c3a90e2f110a26 ""
+["pdflatex"] 1708651633 "/Users/chenyenlun/Desktop/Github/PC/Course/Statistics_with_Meteorological_Applications/HW1/hw1_tex/hw1.tex" "hw1.pdf" "hw1" 1708651634
+  "/Users/chenyenlun/Desktop/Github/PC/Course/Statistics_with_Meteorological_Applications/HW1/hw1_tex/hw1.tex" 1708651633 2935 e9ee02c2614b351195c781ea557a11f6 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu30.tfm" 1198435261 412 968478bed15ee072263199105e60507e ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu4e.tfm" 1198435261 1288 54146e1815502660d4e5d94a0dc9e180 ""
@@ -48,7 +48,6 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu81.tfm" 1136768653 1288 9203f6cd40b242cff5bdb8a277d87b9d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu82.tfm" 1136768653 1284 d9ad47a85018725c8d86b71e042ae544 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu85.tfm" 1136768653 1256 046cb1a083b03aafd27be137d5484e74 ""
-  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu88.tfm" 1136768653 1284 536c4191c251a6e709ad720a24562648 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu89.tfm" 1136768653 1284 418537b88fbc53a974982272b15bc7e8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu8a.tfm" 1136768653 1288 7f6bc6414f6e4dbf56d63c0cd22adb7e ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu8b.tfm" 1136768653 904 94711f3605a5d86ffa872d825f14055a ""
@@ -114,7 +113,6 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu81.pfb" 1198435261 116072 ddda2bcd1c7a063fad76770094b53bbb ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu82.pfb" 1198435261 105545 1ac17b38e723fd2df221f4a650e1d39f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu85.pfb" 1198435261 161608 28e3a7ac8cda55045446dd663ac8862f ""
-  "/usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu88.pfb" 1198435261 127950 81154c5d01524dc39f6108afbedb6a0c ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu89.pfb" 1198435261 132919 e45c96964dbc86237b2a26c5d3c0af01 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8a.pfb" 1198435261 117858 625348bb5c614c9f37613427fc163e4e ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8b.pfb" 1198435261 108806 c6d90646638598051d58cc84e661d29a ""
@@ -221,9 +219,9 @@
   "1.png" 1708488656 13789 292e4f71866027a8a85904c2b7cdb2a6 ""
   "2.png" 1708488661 15711 601fadf55e06c4d860ca6eb04e409382 ""
   "3.png" 1708489063 15457 3b94ca54a802b08a5f16ea29ea61465b ""
-  "hw1.aux" 1708606084 1201 c283c96ceccc6ecc39932c77b25bc337 "pdflatex"
+  "hw1.aux" 1708651634 1201 c283c96ceccc6ecc39932c77b25bc337 "pdflatex"
   "hw1.out" 0 -1 0 "pdflatex"
-  "hw1.tex" 1708606083 2935 69de1dff01d312fa62c3a90e2f110a26 ""
+  "hw1.tex" 1708651633 2935 e9ee02c2614b351195c781ea557a11f6 ""
   (generated)
   "hw1.aux"
   "hw1.log"
