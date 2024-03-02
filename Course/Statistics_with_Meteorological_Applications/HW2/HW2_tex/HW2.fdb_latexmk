@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1709349687 "/Users/chenyenlun/Desktop/Github/PC/Course/Statistics_with_Meteorological_Applications/HW2/HW2_tex/HW2.tex" "HW2.pdf" "HW2" 1709349688
-  "/Users/chenyenlun/Desktop/Github/PC/Course/Statistics_with_Meteorological_Applications/HW2/HW2_tex/HW2.tex" 1709349687 4088 bb36078ea8d8672e326038d6fa5d78c0 ""
+["pdflatex"] 1709386692 "/Users/chenyenlun/Desktop/Github/PC/Course/Statistics_with_Meteorological_Applications/HW2/HW2_tex/HW2.tex" "HW2.pdf" "HW2" 1709386693
+  "/Users/chenyenlun/Desktop/Github/PC/Course/Statistics_with_Meteorological_Applications/HW2/HW2_tex/HW2.tex" 1709386691 4110 16d1d23b6d6871d5e7db2d578d0b3d5b ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu30.tfm" 1198435261 412 968478bed15ee072263199105e60507e ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu4e.tfm" 1198435261 1288 54146e1815502660d4e5d94a0dc9e180 ""
@@ -216,9 +216,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1678896919 2826441 6d7f3dcbee376df1f9017553651352f5 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "HW2.aux" 1709349687 1331 b0b62010e2fd1ddd47e39111c77f4a37 "pdflatex"
+  "HW2.aux" 1709386692 1353 d77a934162d863aa419231697b89cd34 "pdflatex"
   "HW2.out" 0 -1 0 "pdflatex"
-  "HW2.tex" 1709349687 4088 bb36078ea8d8672e326038d6fa5d78c0 ""
+  "HW2.tex" 1709386691 4110 16d1d23b6d6871d5e7db2d578d0b3d5b ""
   "output.png" 1709305789 52475 65983c89851cd23bcb6604a32619eb41 ""
   (generated)
   "HW2.aux"
