@@ -1,0 +1,134 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{CJKutf8}
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage[section]{placeins}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[export]{adjustbox}
+\usepackage{array}
+
+\author{B10209040 陳彥倫}
+
+\begin{document}
+\thispagestyle{empty}
+\hfill {\scshape \large Statistics with Meteorological Applications, Spring 2024} \hfill {\scshape P1}
+\smallskip
+\hrule
+\begin{CJK*}{UTF8}{bsmi}
+\bigskip
+\bigskip
+\bigskip
+
+\centerline{\huge \textbf {HW3}}
+\bigskip
+\centerline{\textbf {B10209040 陳彥倫}}
+
+\section*{1.a}
+\begin{center}
+\begin{spacing}{2}
+    \begin{large}
+        Standard Deviation: 4.62, Mean: 11.46
+    \end{large}
+\end{spacing}
+\end{center}
+
+
+\section*{1.b}
+\begin{center}
+    \begin{spacing}{2}
+        \begin{large}
+            ± 1 std: 16.08278685723503 6.839222582292996 \\
+            ± 2 std: 20.704568994706044 2.21744044482198 \\
+            ± 3 std: 25.326351132177063 -2.4043416926490373 \\
+        \end{large}
+    \end{spacing}
+\end{center}
+
+\section*{1.c}
+\begin{center}
+    \begin{spacing}{2}
+        \begin{large}
+            ± 1 std: 50.22 \% \\
+            ± 2 std: 100 \% \\
+            ± 3 std: 100 \% \\
+        \end{large}
+    \end{spacing}
+\end{center}
+
+\section*{1.d}
+\begin{spacing}{2}
+    \begin{large}
+        由c的結果得知分布在正負一個標準差之內的資料點數目只佔全部的約一半左右，代表與常態分佈相比，此案例之分布較為分散，
+        但資料的最大值及最小值卻又落在三個、甚至是兩個標準差之間，暗示著可能沒有較多相對的極端值於此資料中。
+    \end{large}
+\end{spacing}
+
+\newpage
+
+\thispagestyle{empty}
+\hfill {\scshape \large Statistics with Meteorological Applications, Spring 2024} \hfill {\scshape P2}
+\smallskip
+\hrule
+\bigskip
+\bigskip
+\bigskip
+
+\section*{2.a}
+\begin{spacing}{2}
+    \begin{large}
+        \textbf{「樣本平均的分配」是什麼？}\\
+        ChatGPT:樣本平均的分配是指從一個母體中抽取多個樣本並計算每個樣本的平均值的過程。在統計學中，我們通常希望通過對樣
+        本進行抽樣和分析來推斷整個母體的性質。樣本平均的分配通常用於了解樣本平均值的變異性和分佈情況，這有助於我們評估抽樣
+        的效果以及對母體的推斷是否可靠。在實際應用中，我們可以通過計算多個樣本的平均值來得到樣本平均的分配，然後分析這些平
+        均值的分佈情況，例如計算樣本平均值的平均值、標準差等統計量。這樣的分析可以提供有關樣本平均值的可靠性和不確定性的信
+        息，從而幫助我們做出更可靠的統計推斷。\\
+        \textbf{remark:}\\
+        對定義的解釋大致正確，但第一句或許可修改成「是指從一個母體中抽取多個樣本、計算每個樣本的平均值後這些數值所形成的分
+        佈情況」
+    \end{large}
+\end{spacing}
+
+\section*{2.a}
+\begin{spacing}{2}
+    \begin{large}
+        \textbf{「標準誤」是什麼以及這個資訊的用處為何？}\\
+        ChatGPT:標準誤（Standard Error）是樣本統計量的標準差。具體地說，它是對樣本統計量（通常是樣本平均值）的不確定性
+        的度量。標準誤衡量了樣本統計量與其對應的母體參數之間的差異的可變性。通常，標準誤越小，樣本統計量對母體參數的估計就
+        越穩定和可靠。標準誤的計算取決於所研究的樣本統計量和樣本的大小。例如，對於樣本平均值，其標準誤的計算通常是將樣本標
+        準差除以樣本大小的平方根。對於比例或其他統計量，標準誤的計算方法可能會有所不同。標準誤的用處在於提供對樣本統計量估
+        計的不確定性的量化度量。它可以幫助我們判斷樣本統計量估計的準確性和可靠性。如果標準誤很大，則意味著樣本統計量的估計
+        不太可靠，因為它與真實母體參數之間的差異可能很大。相反，如果標準誤很小，則意味著樣
+    \end{large}
+\end{spacing}
+        
+\newpage
+\thispagestyle{empty}
+\hfill {\scshape \large Statistics with Meteorological Applications, Spring 2024} \hfill {\scshape P3}
+\smallskip
+\hrule    
+
+\section*{}
+\begin{spacing}{2}
+    \begin{large}
+        本統計量的估計較為準確和可靠。標準誤還可以用於計算置信區間、假設檢驗和模型選擇等統計分析中，以幫助我們做出對母體的推
+        斷和統計判斷。\\
+        \textbf{remark:}\\
+        定義及計算方法皆正確
+    \end{large}
+\end{spacing}
+
+
+\end{CJK*}
+\end{document}
