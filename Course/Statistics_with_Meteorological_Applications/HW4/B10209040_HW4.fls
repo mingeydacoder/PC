@@ -858,9 +858,14 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu5a.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu20.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu72.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu83.tfm
 INPUT B10209040_HW4.aux
 INPUT ./B10209040_HW4.out
 INPUT ./B10209040_HW4.out
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu20.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu30.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu4e.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu4f.pfb
@@ -874,6 +879,7 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu56.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu57.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu58.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu59.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu5a.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu5b.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu5c.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu5d.pfb
@@ -896,6 +902,7 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu6d.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu6e.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu70.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu71.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu72.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu73.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu74.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu75.pfb
@@ -909,6 +916,7 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7d.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7f.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu80.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu82.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu83.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu84.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu88.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu89.pfb
