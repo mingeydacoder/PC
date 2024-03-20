@@ -1,0 +1,79 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{CJKutf8}
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage[section]{placeins}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[export]{adjustbox}
+\usepackage{array}
+
+\author{B10209040 陳彥倫}
+
+\begin{document}
+\thispagestyle{empty}
+\hfill {\scshape \large Statistics with Meteorological Applications, Spring 2024} \hfill {\scshape P1}
+\smallskip
+\hrule
+\begin{CJK*}{UTF8}{bsmi}
+\bigskip
+\bigskip
+\bigskip
+
+\centerline{\huge \textbf {HW5}}
+\bigskip
+\centerline{\textbf {B10209040 陳彥倫}}
+
+
+\section*{1.}
+    \begin{spacing}{2.5}
+        \begin{large}
+            虛無假設：2000年的平均降雨量與氣候平均無差異。\\
+            對立假設：2000年的平均降雨量與氣候平均有差異。
+        \end{large}
+    \end{spacing}
+
+\section*{2.}
+    \begin{spacing}{2.5}
+        \begin{large}
+            虛無假設：近15年（1999-2013）的全球平均溫度不大於上世紀初15年(1901-1915)的平均溫度。\\
+            對立假設：近15年（1999-2013）的全球平均溫度大於上世紀初15年(1901-1915)的平均溫度。\\
+            將顯著水準設為0.05，意即Z=1.645，並按公式解出要滿足顯著大於之$\overline{X}$的門檻約為12.42°C
+            而年平均處理後的近15年平均溫度約為12.08°C，顯示近15年的全球平均溫度並未顯著大於上世紀初15年的平均溫度。
+        \end{large}
+    \end{spacing}
+
+\section*{3.}
+\begin{spacing}{2.5}
+    \begin{large}
+        此案例樣本數較大，且母體變異數未知，信賴區間的計算可套用：\\
+        \begin{center}
+            $\overline{X}\pm Z_{\alpha/2} \frac{S}{\sqrt{n}}$
+        \end{center}
+        而題幹所代入之數字符合上述公式，此敘述正確。又因其符合95\%信賴區間之定義，可以推斷[2.96,3.24]有0.95的機率包含
+        真實平均。
+    \end{large}
+\end{spacing}
+        
+\newpage
+\thispagestyle{empty}
+\hfill {\scshape \large Statistics with Meteorological Applications, Spring 2024} \hfill {\scshape P3}
+\smallskip
+\hrule    
+\bigskip
+\bigskip
+\bigskip
+
+\end{CJK*}
+\end{document}
