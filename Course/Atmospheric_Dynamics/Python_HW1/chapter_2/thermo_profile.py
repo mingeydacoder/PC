@@ -22,6 +22,8 @@ Created on Mon Jan 15 10:54:33 2024
 
 import numpy as np
 import matplotlib.pyplot as plt
+import metpy.calc as mpcalc
+from metpy.units import units
 
 A = np.loadtxt('tropical_temp.dat')  # load the data
 
@@ -62,3 +64,36 @@ plt.show()
 # Plot the potential temperature profile versus pressure and hight via python script.
 # Please complete your python plotting script after this line.
 # If you want to do this with another language (matlab, julia, etc.), please inform TA first.
+
+R = 287.43
+Cp = 1005
+Theta = A[:,1] * (1000/A[:,0])**(R/Cp)
+Geopot = mpcalc.height_to_geopotential(z * units.m)/10
+
+plt.figure(figsize = [7,5],dpi = 200)
+
+plt.subplot(1,2,1)
+plt.plot(Theta,A[:,0],color='red')
+plt.plot(A[:,1],A[:,0],color='blue')
+plt.ylim(1000,0)
+plt.xlim(0,1500)
+plt.grid()
+plt.title('T and Theta vs P: tropical sounding')
+plt.ylabel('hPa')
+plt.xlabel('K')
+plt.legend(['$\Theta$','T'])
+plt.tight_layout()
+
+plt.subplot(1,2,2)
+plt.plot(Theta,Geopot,color='red')
+plt.plot(A[:,1],Geopot,color='blue')
+plt.ylim(0,40)
+plt.xlim(0,1500)
+plt.grid()
+plt.title('T and Theta vs GPH: tropical sounding')
+plt.ylabel('km')
+plt.xlabel('K')
+plt.legend(['$\Theta$','T'])
+plt.tight_layout()
+
+print(Geopot)
