@@ -1,0 +1,240 @@
+Epoch 1
+     Train set - loss: 38.4650993347168  accuracy: 0.0714285746216774
+     Test set - loss: 5.553086280822754  accuracy: 0.23333333432674408
+     Number of test errors: 46
+Epoch 2
+     Train set - loss: 5.3850884437561035  accuracy: 0.23571428656578064
+     Test set - loss: 0.5590612292289734  accuracy: 0.800000011920929
+     Number of test errors: 12
+Epoch 3
+     Train set - loss: 0.45339420437812805  accuracy: 0.8500000238418579
+     Test set - loss: 0.1103244200348854  accuracy: 0.949999988079071
+     Number of test errors: 3
+Epoch 4
+     Train set - loss: 0.10626169294118881  accuracy: 0.9785714149475098
+     Test set - loss: 0.08550343662500381  accuracy: 0.949999988079071
+     Number of test errors: 3
+Epoch 5
+     Train set - loss: 0.094235859811306  accuracy: 0.9857142567634583
+     Test set - loss: 0.07218214124441147  accuracy: 0.9666666388511658
+     Number of test errors: 2
+Epoch 6
+     Train set - loss: 0.08863723278045654  accuracy: 0.9857142567634583
+     Test set - loss: 0.0637485459446907  accuracy: 0.9666666388511658
+     Number of test errors: 2
+Epoch 7
+     Train set - loss: 0.08528299629688263  accuracy: 0.9857142567634583
+     Test set - loss: 0.05783563479781151  accuracy: 0.9666666388511658
+     Number of test errors: 2
+Epoch 8
+     Train set - loss: 0.08293434232473373  accuracy: 0.9857142567634583
+     Test set - loss: 0.05340106412768364  accuracy: 0.9666666388511658
+     Number of test errors: 2
+Epoch 9
+     Train set - loss: 0.08111939579248428  accuracy: 0.9857142567634583
+     Test set - loss: 0.049915362149477005  accuracy: 0.9666666388511658
+     Number of test errors: 2
+Epoch 10
+     Train set - loss: 0.0796230137348175  accuracy: 0.9857142567634583
+     Test set - loss: 0.04708031937479973  accuracy: 0.9666666388511658
+     Number of test errors: 2
+Epoch 11
+     Train set - loss: 0.07833316177129745  accuracy: 0.9857142567634583
+     Test set - loss: 0.04471396282315254  accuracy: 0.9666666388511658
+     Number of test errors: 2
+Epoch 12
+     Train set - loss: 0.07718542963266373  accuracy: 0.9857142567634583
+     Test set - loss: 0.04269861802458763  accuracy: 0.9666666388511658
+     Number of test errors: 2
+Epoch 13
+     Train set - loss: 0.07613996416330338  accuracy: 0.9857142567634583
+     Test set - loss: 0.04095390811562538  accuracy: 0.9833333492279053
+     Number of test errors: 1
+Epoch 14
+     Train set - loss: 0.07517059892416  accuracy: 0.9857142567634583
+     Test set - loss: 0.03942328691482544  accuracy: 0.9833333492279053
+     Number of test errors: 1
+Epoch 15
+     Train set - loss: 0.07425925880670547  accuracy: 0.9857142567634583
+     Test set - loss: 0.0380653478205204  accuracy: 0.9833333492279053
+     Number of test errors: 1
+Epoch 16
+     Train set - loss: 0.07339318841695786  accuracy: 0.9857142567634583
+     Test set - loss: 0.0368490032851696  accuracy: 0.9833333492279053
+     Number of test errors: 1
+Epoch 17
+     Train set - loss: 0.07256282866001129  accuracy: 0.9857142567634583
+     Test set - loss: 0.03575063869357109  accuracy: 0.9833333492279053
+     Number of test errors: 1
+Epoch 18
+     Train set - loss: 0.07176137715578079  accuracy: 0.9857142567634583
+     Test set - loss: 0.03475157171487808  accuracy: 0.9833333492279053
+     Number of test errors: 1
+Epoch 19
+     Train set - loss: 0.07098349183797836  accuracy: 0.9857142567634583
+     Test set - loss: 0.033837106078863144  accuracy: 0.9833333492279053
+     Number of test errors: 1
+Epoch 20
+     Train set - loss: 0.0702250674366951  accuracy: 0.9857142567634583
+     Test set - loss: 0.03299533948302269  accuracy: 0.9833333492279053
+     Number of test errors: 1
+Epoch 21
+     Train set - loss: 0.06948297470808029  accuracy: 0.9857142567634583
+     Test set - loss: 0.03221655637025833  accuracy: 0.9833333492279053
+     Number of test errors: 1
+Epoch 22
+     Train set - loss: 0.0687546506524086  accuracy: 0.9857142567634583
+     Test set - loss: 0.03149273619055748  accuracy: 0.9833333492279053
+     Number of test errors: 1
+Epoch 23
+     Train set - loss: 0.06803819537162781  accuracy: 0.9857142567634583
+     Test set - loss: 0.030817249789834023  accuracy: 0.9833333492279053
+     Number of test errors: 1
+Epoch 24
+     Train set - loss: 0.06733196973800659  accuracy: 0.9857142567634583
+     Test set - loss: 0.030184444040060043  accuracy: 0.9833333492279053
+     Number of test errors: 1
+Epoch 25
+     Train set - loss: 0.06663486361503601  accuracy: 0.9857142567634583
+     Test set - loss: 0.029589563608169556  accuracy: 1.0
+     Number of test errors: 0
+Epoch 26
+     Train set - loss: 0.0659458264708519  accuracy: 0.9857142567634583
+     Test set - loss: 0.029028529301285744  accuracy: 1.0
+     Number of test errors: 0
+Epoch 27
+     Train set - loss: 0.06526408344507217  accuracy: 0.9857142567634583
+     Test set - loss: 0.02849791757762432  accuracy: 1.0
+     Number of test errors: 0
+Epoch 28
+     Train set - loss: 0.06458894908428192  accuracy: 0.9857142567634583
+     Test set - loss: 0.027994530275464058  accuracy: 1.0
+     Number of test errors: 0
+Epoch 29
+     Train set - loss: 0.06391998380422592  accuracy: 0.9857142567634583
+     Test set - loss: 0.027515854686498642  accuracy: 1.0
+     Number of test errors: 0
+Epoch 30
+     Train set - loss: 0.06325668096542358  accuracy: 0.9857142567634583
+     Test set - loss: 0.027059538289904594  accuracy: 1.0
+     Number of test errors: 0
+Epoch 31
+     Train set - loss: 0.06259870529174805  accuracy: 0.9857142567634583
+     Test set - loss: 0.026623521000146866  accuracy: 1.0
+     Number of test errors: 0
+Epoch 32
+     Train set - loss: 0.061945840716362  accuracy: 0.9857142567634583
+     Test set - loss: 0.026206042617559433  accuracy: 1.0
+     Number of test errors: 0
+Epoch 33
+     Train set - loss: 0.06129787489771843  accuracy: 0.9857142567634583
+     Test set - loss: 0.025805464014410973  accuracy: 1.0
+     Number of test errors: 0
+Epoch 34
+     Train set - loss: 0.060654498636722565  accuracy: 0.9857142567634583
+     Test set - loss: 0.02542039006948471  accuracy: 1.0
+     Number of test errors: 0
+Epoch 35
+     Train set - loss: 0.06001569330692291  accuracy: 0.9857142567634583
+     Test set - loss: 0.025049548596143723  accuracy: 1.0
+     Number of test errors: 0
+Epoch 36
+     Train set - loss: 0.05938125401735306  accuracy: 0.9857142567634583
+     Test set - loss: 0.024691732600331306  accuracy: 1.0
+     Number of test errors: 0
+Epoch 37
+     Train set - loss: 0.05875109136104584  accuracy: 0.9857142567634583
+     Test set - loss: 0.02434599958360195  accuracy: 1.0
+     Number of test errors: 0
+Epoch 38
+     Train set - loss: 0.05812523141503334  accuracy: 0.9857142567634583
+     Test set - loss: 0.024011332541704178  accuracy: 1.0
+     Number of test errors: 0
+Epoch 39
+     Train set - loss: 0.05750350281596184  accuracy: 0.9857142567634583
+     Test set - loss: 0.023686857894062996  accuracy: 1.0
+     Number of test errors: 0
+Epoch 40
+     Train set - loss: 0.05688587948679924  accuracy: 0.9857142567634583
+     Test set - loss: 0.023371869698166847  accuracy: 1.0
+     Number of test errors: 0
+Epoch 41
+     Train set - loss: 0.05627232789993286  accuracy: 0.9857142567634583
+     Test set - loss: 0.023065660148859024  accuracy: 1.0
+     Number of test errors: 0
+Epoch 42
+     Train set - loss: 0.0556628480553627  accuracy: 0.9857142567634583
+     Test set - loss: 0.022767532616853714  accuracy: 1.0
+     Number of test errors: 0
+Epoch 43
+     Train set - loss: 0.05505746975541115  accuracy: 0.9857142567634583
+     Test set - loss: 0.022476939484477043  accuracy: 1.0
+     Number of test errors: 0
+Epoch 44
+     Train set - loss: 0.05445608124136925  accuracy: 0.9857142567634583
+     Test set - loss: 0.02219325676560402  accuracy: 1.0
+     Number of test errors: 0
+Epoch 45
+     Train set - loss: 0.05385870486497879  accuracy: 0.9857142567634583
+     Test set - loss: 0.021916015073657036  accuracy: 1.0
+     Number of test errors: 0
+Epoch 46
+     Train set - loss: 0.053265467286109924  accuracy: 0.9857142567634583
+     Test set - loss: 0.021644795313477516  accuracy: 1.0
+     Number of test errors: 0
+Epoch 47
+     Train set - loss: 0.05267614871263504  accuracy: 0.9857142567634583
+     Test set - loss: 0.021379126235842705  accuracy: 1.0
+     Number of test errors: 0
+Epoch 48
+     Train set - loss: 0.052090998739004135  accuracy: 0.9857142567634583
+     Test set - loss: 0.021118583157658577  accuracy: 1.0
+     Number of test errors: 0
+Epoch 49
+     Train set - loss: 0.051509927958250046  accuracy: 0.9857142567634583
+     Test set - loss: 0.020862841978669167  accuracy: 1.0
+     Number of test errors: 0
+Epoch 50
+     Train set - loss: 0.050932981073856354  accuracy: 0.9857142567634583
+     Test set - loss: 0.020611537620425224  accuracy: 1.0
+     Number of test errors: 0
+Epoch 51
+     Train set - loss: 0.050360165536403656  accuracy: 0.9857142567634583
+     Test set - loss: 0.02036438323557377  accuracy: 1.0
+     Number of test errors: 0
+Epoch 52
+     Train set - loss: 0.049791499972343445  accuracy: 0.9857142567634583
+     Test set - loss: 0.020121026784181595  accuracy: 1.0
+     Number of test errors: 0
+Epoch 53
+     Train set - loss: 0.049227021634578705  accuracy: 0.9857142567634583
+     Test set - loss: 0.019881246611475945  accuracy: 1.0
+     Number of test errors: 0
+Epoch 54
+     Train set - loss: 0.0486668236553669  accuracy: 0.9857142567634583
+     Test set - loss: 0.019644789397716522  accuracy: 1.0
+     Number of test errors: 0
+Epoch 55
+     Train set - loss: 0.04811088368296623  accuracy: 0.9857142567634583
+     Test set - loss: 0.019411379471421242  accuracy: 1.0
+     Number of test errors: 0
+Epoch 56
+     Train set - loss: 0.047559257596731186  accuracy: 0.9857142567634583
+     Test set - loss: 0.01918090134859085  accuracy: 1.0
+     Number of test errors: 0
+Epoch 57
+     Train set - loss: 0.047012023627758026  accuracy: 0.9857142567634583
+     Test set - loss: 0.0189531072974205  accuracy: 1.0
+     Number of test errors: 0
+Epoch 58
+     Train set - loss: 0.04646914079785347  accuracy: 0.9857142567634583
+     Test set - loss: 0.01872781477868557  accuracy: 1.0
+     Number of test errors: 0
+Epoch 59
+     Train set - loss: 0.045930713415145874  accuracy: 0.9857142567634583
+     Test set - loss: 0.01850481703877449  accuracy: 1.0
+     Number of test errors: 0
+Epoch 60
+     Train set - loss: 0.04539676010608673  accuracy: 0.9857142567634583
+     Test set - loss: 0.018284061923623085  accuracy: 1.0
+     Number of test errors: 0
